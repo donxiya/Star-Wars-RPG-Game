@@ -3,37 +3,46 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Basic jQuery Dump</title>
+    <title>SW Game</title>
 
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
 </head>
 
 <body>
     <div id="roster">
-        <div class="rosterContainer">Choose Character</div>
         <div class="rosterContainer">
-            <div id="kenButton" class="rosterButton">KEN</div>
+            
+           <div id="intro"> Choose<br /> Your<br /> Character</div>
+        
+        </div>
+
+        <div class="rosterContainer">
+            <div id="kenButton" class="rosterButton0"></div>
+            <div class="attack">ATK: 10 HP: 500</div>
         </div>
         <div class="rosterContainer">
-            <div id="skyButton" class="rosterButton">SKY</div>
+            <div id="skyButton" class="rosterButton1"></div>
+            <div class="attack">ATK: 25 HP: 300</div>
         </div>
         <div class="rosterContainer">
-            <div id="sidButton" class="rosterButton">SID</div>
+            <div id="sidButton" class="rosterButton2"></div>
+            <div class="attack">ATK: 30 HP: 200</div>
         </div>
         <div class="rosterContainer">
-            <div id="mauButton" class="rosterButton">MAU</div>
+            <div id="mauButton" class="rosterButton3"></div>
+            <div class="attack">ATK: 25 HP: 400</div>
         </div>
     </div>
     <div id="startContainer">
         <div id="start" class="startButton">START</div>
-        <div id="choose" class="startButton">choose</div>
+        <div id="choose" class="startButton">CONFIRM</div>
     </div>
     <div id="mainGame">
         <div id="attackerContainer">
             <div id="attackerSlot" class="charButton"></div>
             <div id="attHealth"></div>
-            <div id="bonusAttack"></div>
+            <div id="bonusAttack" class="attack"></div>
         </div>
         <div id="fightContainer">
             <div id="fight" class="secStartButton">FIGHT</div>
@@ -42,21 +51,28 @@
             <div id="opponentHold">
             <div id="opponentSlot" class="charButton"></div>
             <div id="oppHealth"></div>
-            <div id="counterAttack"></div>
+            <div id="counterAttack" class="attack"></div>
             </div>
-            <div id="choose2" class="secStartButton">choose2</div>
+            <div id="choose2" class="secStartButton">CONFIRM</div>
         </div>
         <div id="defenderSlotContainer">
             <div id="rosterContainer0">
-                <div id="defenderSlot0" class="charButton">0</div>
+                <div id="defenderSlot0" class="charButton"></div>
             </div>
             <div id="rosterContainer1">
-                <div id="defenderSlot1" class="charButton">1</div>
+                <div id="defenderSlot1" class="charButton"></div>
             </div>
             <div id="rosterContainer2">
-                <div id="defenderSlot2" class="charButton">2</div>
+                <div id="defenderSlot2" class="charButton"></div>
             </div>
         </div>
+    </div>
+    <div id="victory">
+        VICTORY <br>(click to restart)
+    </div>
+    <div id="defeat">
+            DEFEAT <br> (click to restart)
+
     </div>
 
 
@@ -64,6 +80,6 @@
 
 
 </body>
-<script src="game.js"></script>
+<script src="assets/javascript/game.js"></script>
 
 </html>

@@ -1,0 +1,299 @@
+body{
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.charButton{
+    margin: 25px auto 25px auto;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    color:black;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 30px;
+}
+.charButton::after{
+    content: "Select Character";
+}
+.rosterButton0{
+    margin: 25px auto 25px auto;
+    width: 100px;
+    height: 100px;
+    background-image: url("../image/ken.jpg");
+    background-size: 120px 100px;
+}
+.rosterButtonClicked0{
+    margin: 25px auto 25px auto;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: beige;
+    text-align: center;
+    line-height: 100px;
+}
+.rosterButtonClicked0::after{
+    content: "Obi Wan";
+}
+.rosterButton1{
+    margin: 25px auto 25px auto;
+    width: 100px;
+    height: 100px;
+    background-image: url("../image/sky.jpeg");
+    background-size: 130px 100px;
+}
+.rosterButtonClicked1{
+    margin: 25px auto 25px auto;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: beige;
+    text-align: center;
+    line-height: 100px;
+}
+.rosterButtonClicked1::after{
+    content: "Luke";
+}
+.rosterButton2{
+    margin: 25px auto 25px auto;
+    width: 100px;
+    height: 100px;
+    background-image: url("../image/sid.jpg");
+    background-size: 140px 100px;
+}
+.rosterButtonClicked2{
+    margin: 25px auto 25px auto;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: beige;
+    text-align: center;
+    line-height: 100px;
+}
+.rosterButtonClicked2::after{
+    content: "Sidious";
+}
+.rosterButton3{
+    margin: 25px auto 25px auto;
+    width: 100px;
+    height: 100px;
+    background-image: url("../image/mau.png");
+    background-size: 100px 130px;
+}
+.rosterButtonClicked3{
+    margin: 25px auto 25px auto;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: beige;
+    text-align: center;
+    line-height: 100px;
+}
+.rosterButtonClicked3::after{
+    content: "Maul";
+}
+#roster{
+    height: 200px;
+}
+.rosterContainer{
+    float: left;
+    box-sizing: border-box;
+    width: 20%;
+    height: 200px;
+    background-color: beige;
+    border: 5px solid;
+    border-color: darkred;
+}
+#intro{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+.attack{
+    height: 30px;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+#startContainer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: black;
+}
+.startButton{
+    display: inline-block;
+    height: 80px;
+    width: 100px;
+    margin: auto;
+    background-color: darkred;
+    color: beige;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 80px;
+}
+.secStartButton{
+    margin: 25px auto 25px auto;
+    height: 80px;
+    width: 100px;
+    background-color: darkred;
+    color: beige;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 80px;
+}
+.startButtonClicked{
+    display: inline-block;
+    height: 80px;
+    width: 100px;
+    margin: auto;
+    background-color: beige;
+    color: darkred;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 80px;
+}
+.startButtonClick{
+    height: 80px;
+    width: 100px;
+    margin: 10px auto 10px auto;
+    background-color: beige;
+    color: darkred;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 80px;
+}
+#start{
+    display: none;
+}
+#mainGame{
+    display: none;
+}
+#defenderSlotContainer{
+    float: left;
+    width: 25%;
+    height: auto;
+}
+#rosterContainer0{
+    float: left;
+    width: 100%;
+    height: 150px;
+}
+#rosterContainer1{
+    float: left;
+    width: 100%;
+    height: 150px;
+}
+#rosterContainer2{
+    float: left;
+    width: 100%;
+    height: 150px;
+}
+#opponentContainer{
+    float: left;
+    width: 25%;
+    height: auto;
+    background-color: darkgrey;
+}
+#fightContainer{
+    float: left;
+    width: 25%;
+    height: auto;
+}
+#attackerContainer{
+    float: left;
+    width: 25%;
+    height: auto;
+    background-color: darkgrey;
+}
+.kenButtonField{
+    display: none;
+    margin: 25px auto 25px auto;
+    width: 100px;
+    height: 100px;
+    background-image: url("../image/ken.jpg");
+    background-size: 120px 100px;
+}
+.skyButtonField{
+    display: none;
+    margin: 25px auto 25px auto;
+    width: 100px;
+    height: 100px;
+
+    background-image: url("../image/sky.jpeg");
+    background-size: 130px 100px;
+}
+.sidButtonField{
+    display: none;
+    margin: 25px auto 25px auto;
+    width: 100px;
+    height: 100px;
+    background-image: url("../image/sid.jpg");
+    background-size: 140px 100px;
+}
+.mauButtonField{
+    display: none;
+    margin: 25px auto 25px auto;
+    width: 100px;
+    height: 100px;
+    background-image: url("../image/mau.png");
+    background-size: 100px 130px;
+}
+
+#attHealth{
+    margin: 0 auto 25px auto;
+    width: 100px;
+    height: 30px;
+    background: darkred;
+    color: beige;
+}
+#oppHealth{
+    margin: 0 auto 25px auto;
+    width: 0px;
+    height: 30px;
+    background: darkred;
+    color: beige;
+}
+
+#bonusAttack{
+    margin: -25 auto 25px auto;
+    width: 100%;
+    height: 30px;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#counterAttack{
+    margin: -25 auto 25px auto;
+    width: 100%;
+    height: 30px;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+#victory{
+    display: none;
+    width: 100%;
+    height: 500px;
+    background-color: beige;
+    color: darkred;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 100px;
+    line-height: 200px;
+}
+
+#defeat{
+    display: none;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 100px;
+    line-height: 200px;
+}

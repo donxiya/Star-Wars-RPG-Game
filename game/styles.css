@@ -1,0 +1,177 @@
+.charButton{
+    margin: 25px auto 25px auto;
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    color:black;
+}
+.charButton::after{
+    content: "Select Character";
+
+}
+.rosterButton{
+    margin: 25px auto 25px auto;
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+}
+.rosterButtonClicked{
+    margin: 25px auto 25px auto;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+#roster{
+    height: 150px;
+    background-color: black;
+}
+.rosterContainer{
+    float: left;
+    width: 20%;
+    height: 150px;
+    background-color: red;
+}
+#startContainer{
+    height: 100px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: brown;
+}
+.startButton{
+    display: inline-block;
+    height: 80px;
+    width: 100px;
+    margin: auto;
+    background-color: blueviolet;
+    color: beige;
+}
+.secStartButton{
+    margin: 25px auto 25px auto;
+    height: 80px;
+    width: 100px;
+    background-color: blueviolet;
+    color: beige;
+}
+.startButtonClicked{
+    display: inline-block;
+    height: 80px;
+    width: 100px;
+    margin: auto;
+    background-color: beige;
+    color: blueviolet;
+}
+.startButtonClick{
+    height: 80px;
+    width: 100px;
+    margin: 10px auto 10px auto;
+    background-color: beige;
+    color: blueviolet;
+}
+#start{
+    display: none;
+}
+#mainGame{
+    display: none;
+}
+#defenderSlotContainer{
+    float: left;
+    width: 25%;
+    height: auto;
+    background-color: pink;
+}
+#rosterContainer0{
+    float: left;
+    width: 100%;
+    height: 150px;
+    background-color: red;
+}
+#rosterContainer1{
+    float: left;
+    width: 100%;
+    height: 150px;
+    background-color: red;
+}
+#rosterContainer2{
+    float: left;
+    width: 100%;
+    height: 150px;
+    background-color: red;
+}
+#opponentContainer{
+    float: left;
+    width: 25%;
+    height: auto;
+    background-color: crimson;
+}
+#fightContainer{
+    float: left;
+    width: 25%;
+    height: auto;
+    background-color: lightsalmon;
+}
+#attackerContainer{
+    float: left;
+    width: 25%;
+    height: auto;
+    background-color: lightsalmon;
+}
+.kenButtonField{
+    display: none;
+    margin: 25px auto 25px auto;
+    width: 100px;
+    height: 100px;
+    background-color: paleturquoise;
+}
+.skyButtonField{
+    display: none;
+    margin: 25px auto 25px auto;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+.sidButtonField{
+    display: none;
+    margin: 25px auto 25px auto;
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+}
+.mauButtonField{
+    display: none;
+    margin: 25px auto 25px auto;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+#attHealth{
+    margin: 0 auto 25px auto;
+    width: 100px;
+    height: 30px;
+    background: black;
+    color: aliceblue;
+}
+#oppHealth{
+    margin: 0 auto 25px auto;
+    width: 0px;
+    height: 30px;
+    background: black;
+    color: aliceblue;
+}
+
+#bonusAttack{
+    margin: -25 auto 25px auto;
+    width: 150px;
+    height: 30px;
+        color: black;
+}
+
+#counterAttack{
+    margin: -25 auto 25px auto;
+    width: 150px;
+    height: 30px;
+    color: black;
+}

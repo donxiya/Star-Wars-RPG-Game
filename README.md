@@ -1,4 +1,6 @@
 # Star-Wars-RPG-Game
+
+## Deployed Link: https://donxiya.github.io/Star-Wars-RPG-Game/
 Main Goal:
 - Time animation
 - JQuery Combination
